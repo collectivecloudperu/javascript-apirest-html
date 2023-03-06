@@ -8,8 +8,8 @@ function obtenerDatos() {
       if (data) {
           console.log(data);
           const ar = data.postres;
-          let result = `<table class='table table-striped table-bordered table-hover text-center'><thead>
-                          <tr class=table-dark>
+          let result = `<table class='table table-striped table-bordered table-hover text-center'><thead class=table-dark>
+                          <tr>
                             <th>Nombre</th>
                             <th>Precio</th>
                             <th>Stock</th>
