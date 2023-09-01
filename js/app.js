@@ -7,7 +7,7 @@ function obtenerDatos() {
   }).then(data => {
       if (data) {
           console.log(data);
-          const ar = data.postres;
+          const ar = data;
           let result = `<table class='table table-striped table-bordered table-hover text-center'><thead class=table-dark>
                           <tr>
                             <th>Nombre</th>
